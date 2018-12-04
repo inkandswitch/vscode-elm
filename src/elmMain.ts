@@ -19,7 +19,7 @@ import { ElmSymbolProvider } from './elmSymbol';
 import { ElmWorkspaceSymbolProvider } from './elmWorkspaceSymbols';
 import { configuration } from './elmConfiguration';
 
-const ELM_MODE: vscode.DocumentFilter = { language: 'elm', scheme: 'file' };
+const ELM_MODE: vscode.DocumentFilter = { language: 'elm' };
 const config: vscode.WorkspaceConfiguration = vscode.workspace.getConfiguration(
   'elm',
 );
